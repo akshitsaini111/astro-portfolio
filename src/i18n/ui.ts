@@ -34,7 +34,7 @@ export const ui = {
     // About Me
     'about.title': 'About me',
     'about.description':
-      "Hi, I'm Andrés, a fullstack software developer from India 🇮🇳.",
+      "Hi, I'm Akshit, a fullstack software developer from India 🇮🇳.",
     'about.tools': 'My primary tools of choice includes:',
     'about.hobbies':
       "Beyond coding, I'm passionate about tattoo, soccer and traveling. An unusual hobby of mine is play classical music in the guitar or ukulele.",
@@ -87,20 +87,14 @@ export const ui = {
     '404.goHome': 'Go back home',
 
     // Home Page
-    'home.title': 'Andrés Plaza - Full Stack Developer',
+    'home.title': 'Akshit Saini - Full Stack Developer',
     'home.description':
-      'Andrés Plaza - Full Stack Developer - Portfolio, Projects, CV, About Me, Contact, Timezone, Now, Experience, Tattoo, Study',
+      'AKshit Saini - Full Stack Developer - Portfolio, Projects, CV, About Me, Contact, Timezone, Now, Experience, Tattoo, Study',
     'home.portfolio': 'Portfolio & Projects',
 
     // Quote
     'quote.text': 'Anything one man can imagine, other men can make real.',
     'quote.author': '- Jules Verne',
-
-    // Footer
-    'footer.builtBy': 'Built by',
-    'footer.with': 'with',
-    'footer.using':
-      'using Astro and Tailwind CSS. The source code is available on',
 
     // Experience - Common
     'experience.current': 'Current',
