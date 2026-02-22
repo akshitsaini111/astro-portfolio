@@ -47,23 +47,6 @@ export function LanguagePicker({
           </span>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end" className="min-w-[140px]">
-        {Object.entries(languages).map(([l, label]) => (
-          <DropdownMenuItem
-            key={l}
-            onClick={() => handleLanguageChange(l)}
-            className={`flex cursor-pointer items-center gap-2 ${
-              currentLang === l ? 'bg-accent font-semibold' : ''
-            }`}
-          >
-            <span className="text-xl leading-none">
-              {languageFlags[l as keyof typeof languageFlags]}
-            </span>
-            <span>{label}</span>
-            {currentLang === l && <span className="ml-auto text-xs">✓</span>}
-          </DropdownMenuItem>
-        ))}
-      </DropdownMenuContent>
     </DropdownMenu>
   )
 }
